@@ -1,0 +1,38 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background:#1a759f;
+    border-bottom: 30px solid #d90429;
+    border-radius: 5px;
+
+}
+/*
+over effect de la souris
+*/
+h3:hover{
+    color: blue;
+   }
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+/*
+on utilise cette commande unique pour centre tout le block. ca s appele utiliser de l inheritance. ceci agit sur tout les descendant de div
+*/
+div{
+    text-align: center;
+}
